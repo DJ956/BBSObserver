@@ -1,0 +1,56 @@
+﻿@model  IEnumerable<BBSObserver.Models.Lecture.Lecture>
+@using BBSObserver.Models.Lecture;
+
+@{ 
+    const string TARGET = "Target";
+    const string IS_EDIT = "IsEdit";
+
+    bool isEdit = (bool)ViewData[IS_EDIT];
+}
+
+<div class="p-3">
+    <ul class="nav nav-tabs">
+        <li class="nav-item active">
+            <a href="#B1" class="nav-link" data-toggle="tab">1回生</a>
+        </li>
+        <li class="nav-item">
+            <a href="#B2" class="nav-link" data-toggle="tab">2回生</a>
+        </li>
+
+        <li class="nav-item">
+            <a href="#B3" class="nav-link" data-toggle="tab">3回生</a>
+        </li>
+
+        <li class="nav-item">
+            <a href="#B4" class="nav-link" data-toggle="tab">4回生</a>
+        </li>
+
+        <li class="nav-item">
+            <a href="#WHOLE" class="nav-link" data-toggle="tab">学科全般</a>
+        </li>
+    </ul>
+
+    <!--コンテンツ部分-->
+    <div class="tab-content">
+        <div id="B1" class="tab-pane active">
+            @Html.Partial("PartialLectureList", Model, new ViewDataDictionary { { TARGET, Grand.B1 }, {IS_EDIT, isEdit} })
+        </div>
+
+        <div id="B2" class="tab-pane">
+            @Html.Partial("PartialLectureList", Model, new ViewDataDictionary { { TARGET, Grand.B2 }, {IS_EDIT, isEdit } })
+        </div>
+
+        <div id="B3" class="tab-pane">
+            @Html.Partial("PartialLectureList", Model, new ViewDataDictionary { { TARGET, Grand.B3 }, {IS_EDIT, isEdit } })
+        </div>
+
+        <div id="B4" class="tab-pane">
+            @Html.Partial("PartialLectureList", Model, new ViewDataDictionary { { TARGET, Grand.B4 }, { IS_EDIT, isEdit} })
+        </div>
+
+        <div id="WHOLE" class="tab-pane">
+            @Html.Partial("PartialLectureList", Model, new ViewDataDictionary { { TARGET, Grand.All}, { IS_EDIT, isEdit} })
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,58 @@
+﻿@model BBSObserver.Models.Lecture.Lecture
+
+@{
+    ViewBag.Title = "詳細";
+}
+
+<h2>講義詳細</h2>
+
+<div>
+    <h4>講義情報</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Target)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Target)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProfessorName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProfessorName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Room)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Room)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Check)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Check)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("編集", "Edit", new { id = Model.LectureId }) |
+    @Html.ActionLink("戻る", "Index")
+</p>

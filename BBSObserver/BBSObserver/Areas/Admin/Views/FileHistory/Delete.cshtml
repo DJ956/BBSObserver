@@ -1,0 +1,48 @@
+﻿@model BBSObserver.Models.History.FileHistory
+
+@{
+    ViewBag.Title = "削除";
+}
+
+<h2>ファイル送信履歴削除</h2>
+
+<h3>本当にこのファイル送信履歴を削除してもかまいませんか?</h3>
+<div>
+    <h4>ファイル送信履歴情報</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FileName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FileName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LectureId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LectureId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FileData)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FileData)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="削除する" class="btn btn-danger" /> |
+            @Html.ActionLink("戻る", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,1521 @@
+2018-06-14 02:27:12,087 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 02:27:12,134 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 02:27:12,144 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 02:27:12,149 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 02:27:12,149 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 02:27:12,151 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 02:27:12,152 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 02:27:12,152 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 02:27:12,158 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 02:27:12,164 [9] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:27:12,515 [9] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 02:27:12,524 [9] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.ef7108c7-ab40-48fd-a359-b8835910ad39', class=BBSObserver.Scheduler.Job
+2018-06-14 02:27:12,528 [9] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:27:12,545 [10] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.ef7108c7-ab40-48fd-a359-b8835910ad39
+2018-06-14 02:27:12,547 [10] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 2:27:12
+2018-06-14 02:27:15,846 [10] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 02:27:40,395 [9] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:28:05,784 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 02:28:05,832 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 02:28:05,842 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 02:28:05,846 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 02:28:05,848 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 02:28:05,852 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 02:28:05,866 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 02:28:05,866 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 02:28:05,875 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 02:28:05,879 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:28:06,325 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 02:28:06,338 [11] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.9bc14288-e014-4dfe-9e46-c63667964dc3', class=BBSObserver.Scheduler.Job
+2018-06-14 02:28:06,342 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:28:06,359 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.9bc14288-e014-4dfe-9e46-c63667964dc3
+2018-06-14 02:28:06,364 [12] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 2:28:06
+2018-06-14 02:28:09,553 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 02:28:32,693 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:28:57,647 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:29:23,043 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:52:46,351 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 02:52:46,394 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 02:52:46,405 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 02:52:46,409 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 02:52:46,410 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 02:52:46,413 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 02:52:46,413 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 02:52:46,413 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 02:52:46,420 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 02:52:46,426 [9] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:52:46,753 [9] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 02:52:46,763 [9] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.8fda7184-2ad4-430e-8e3f-bee41d4b20a9', class=BBSObserver.Scheduler.Job
+2018-06-14 02:52:46,766 [9] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:52:46,781 [10] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.8fda7184-2ad4-430e-8e3f-bee41d4b20a9
+2018-06-14 02:52:46,782 [10] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 2:52:46
+2018-06-14 02:52:50,121 [10] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 02:53:13,133 [9] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:53:40,605 [9] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:55:12,507 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 02:55:12,548 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 02:55:12,560 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 02:55:12,563 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 02:55:12,563 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 02:55:12,565 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 02:55:12,566 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 02:55:12,566 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 02:55:12,573 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 02:55:12,577 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:55:12,898 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 02:55:12,906 [11] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.3813bec8-694f-43a8-b4b6-7b37ba74021d', class=BBSObserver.Scheduler.Job
+2018-06-14 02:55:12,911 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:55:12,924 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.3813bec8-694f-43a8-b4b6-7b37ba74021d
+2018-06-14 02:55:12,926 [12] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 2:55:12
+2018-06-14 02:55:15,154 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 02:55:42,850 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:57:56,846 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 02:57:56,894 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 02:57:56,909 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 02:57:56,914 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 02:57:56,915 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 02:57:56,920 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 02:57:56,920 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 02:57:56,921 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 02:57:56,934 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 02:57:56,939 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:57:57,417 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 02:57:57,433 [11] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.e6225cb5-e5cb-44e2-a684-53c229628e7d', class=BBSObserver.Scheduler.Job
+2018-06-14 02:57:57,440 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:57:57,455 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.e6225cb5-e5cb-44e2-a684-53c229628e7d
+2018-06-14 02:57:57,481 [12] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 2:57:57
+2018-06-14 02:58:00,302 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 02:58:46,930 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 02:58:46,978 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 02:58:46,988 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 02:58:46,991 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 02:58:46,992 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 02:58:46,994 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 02:58:46,994 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 02:58:46,995 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 02:58:47,006 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 02:58:47,012 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:58:47,452 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 02:58:47,465 [12] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.56e77a35-cf5a-47ed-822c-454b78d6105b', class=BBSObserver.Scheduler.Job
+2018-06-14 02:58:47,470 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:58:47,488 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.56e77a35-cf5a-47ed-822c-454b78d6105b
+2018-06-14 02:58:47,494 [13] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 2:58:47
+2018-06-14 02:58:50,285 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 02:59:12,545 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 02:59:12,593 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 02:59:12,605 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 02:59:12,609 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 02:59:12,610 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 02:59:12,616 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 02:59:12,617 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 02:59:12,617 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 02:59:12,627 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 02:59:12,632 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:59:13,064 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 02:59:13,078 [11] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.d686afcb-37e5-4ad4-85ee-78b989c6a742', class=BBSObserver.Scheduler.Job
+2018-06-14 02:59:13,084 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:59:13,102 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.d686afcb-37e5-4ad4-85ee-78b989c6a742
+2018-06-14 02:59:13,106 [12] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 2:59:13
+2018-06-14 02:59:15,678 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 02:59:34,007 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 02:59:34,062 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 02:59:34,074 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 02:59:34,077 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 02:59:34,078 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 02:59:34,081 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 02:59:34,081 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 02:59:34,082 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 02:59:34,093 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 02:59:34,096 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:59:34,547 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 02:59:34,561 [11] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.fa43df6b-96f2-4f22-b8bc-08c8fded11ea', class=BBSObserver.Scheduler.Job
+2018-06-14 02:59:34,565 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 02:59:34,585 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.fa43df6b-96f2-4f22-b8bc-08c8fded11ea
+2018-06-14 02:59:34,586 [12] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 2:59:34
+2018-06-14 02:59:37,313 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 03:34:58,925 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 03:34:58,971 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 03:34:58,982 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 03:34:58,985 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 03:34:58,986 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 03:34:58,990 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 03:34:58,990 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 03:34:58,990 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 03:34:58,997 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 03:34:59,001 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 03:34:59,349 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 03:34:59,359 [11] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.918f8276-adf5-44f5-a808-b1a0b2bcafde', class=BBSObserver.Scheduler.Job
+2018-06-14 03:34:59,364 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 03:34:59,377 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.918f8276-adf5-44f5-a808-b1a0b2bcafde
+2018-06-14 03:34:59,379 [12] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 3:34:59
+2018-06-14 03:35:01,810 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 03:35:09,974 [13] ERROR BBSObserver.MvcApplication [(null)] -    èÍèä System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   èÍèä System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecute>b__151_2(IAsyncResult asyncResult, Controller controller)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   èÍèä System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   èÍèä System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   èÍèä System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+System.InvalidOperationException: !FGs0q!The view 'Index' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Areas/Admin/Views/BBSCoreInfo/Index.aspx
+~/Areas/Admin/Views/BBSCoreInfo/Index.ascx
+~/Areas/Admin/Views/Shared/Index.aspx
+~/Areas/Admin/Views/Shared/Index.ascx
+~/Views/BBSCoreInfo/Index.aspx
+~/Views/BBSCoreInfo/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Areas/Admin/Views/BBSCoreInfo/Index.cshtml
+~/Areas/Admin/Views/BBSCoreInfo/Index.vbhtml
+~/Areas/Admin/Views/Shared/Index.cshtml
+~/Areas/Admin/Views/Shared/Index.vbhtml
+~/Views/BBSCoreInfo/Index.cshtml
+~/Views/BBSCoreInfo/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml ï\c?éöái ï\c?éöái ï\c?!
+   èÍèä System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   èÍèä System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecute>b__151_2(IAsyncResult asyncResult, Controller controller)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   èÍèä System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   èÍèä System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   èÍèä System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-06-14 03:35:11,927 [12] ERROR BBSObserver.MvcApplication [(null)] -    èÍèä System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   èÍèä System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecute>b__151_2(IAsyncResult asyncResult, Controller controller)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   èÍèä System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   èÍèä System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   èÍèä System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+System.InvalidOperationException: !FGs0q!The view 'Index' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Areas/Admin/Views/BBSCoreInfo/Index.aspx
+~/Areas/Admin/Views/BBSCoreInfo/Index.ascx
+~/Areas/Admin/Views/Shared/Index.aspx
+~/Areas/Admin/Views/Shared/Index.ascx
+~/Views/BBSCoreInfo/Index.aspx
+~/Views/BBSCoreInfo/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Areas/Admin/Views/BBSCoreInfo/Index.cshtml
+~/Areas/Admin/Views/BBSCoreInfo/Index.vbhtml
+~/Areas/Admin/Views/Shared/Index.cshtml
+~/Areas/Admin/Views/Shared/Index.vbhtml
+~/Views/BBSCoreInfo/Index.cshtml
+~/Views/BBSCoreInfo/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml ï\c?éöái ï\c?éöái ï\c?!
+   èÍèä System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   èÍèä System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecute>b__151_2(IAsyncResult asyncResult, Controller controller)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   èÍèä System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   èÍèä System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   èÍèä System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-06-14 03:37:49,223 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 03:37:49,269 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 03:37:49,279 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 03:37:49,284 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 03:37:49,285 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 03:37:49,287 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 03:37:49,287 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 03:37:49,288 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 03:37:49,294 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 03:37:49,298 [13] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 03:37:49,648 [13] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 03:37:49,658 [13] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.b73d0201-0b8c-4303-ab4a-9c5fed19e959', class=BBSObserver.Scheduler.Job
+2018-06-14 03:37:49,662 [13] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 03:37:49,678 [14] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.b73d0201-0b8c-4303-ab4a-9c5fed19e959
+2018-06-14 03:37:49,679 [14] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 3:37:49
+2018-06-14 03:37:51,972 [14] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 03:37:55,677 [15] ERROR BBSObserver.MvcApplication [(null)] -    èÍèä System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+   èÍèä System.Web.Mvc.ViewDataDictionary..ctor(ViewDataDictionary dictionary)
+   èÍèä System.Web.Mvc.WebViewPage`1.SetViewData(ViewDataDictionary viewData)
+   èÍèä System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   èÍèä System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   èÍèä System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecute>b__151_2(IAsyncResult asyncResult, Controller controller)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   èÍèä System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   èÍèä System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   èÍèä System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+System.InvalidOperationException: !60oPp!The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[BBSObserver.Models.Core.BBSCoreInfo]', but this dictionary requires a model item of type 'BBSObserver.Models.Core.BBSCoreInfo'. ï\c?éöái ï\c?éöái ï\!
+   èÍèä System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+   èÍèä System.Web.Mvc.ViewDataDictionary..ctor(ViewDataDictionary dictionary)
+   èÍèä System.Web.Mvc.WebViewPage`1.SetViewData(ViewDataDictionary viewData)
+   èÍèä System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   èÍèä System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   èÍèä System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecute>b__151_2(IAsyncResult asyncResult, Controller controller)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   èÍèä System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   èÍèä System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   èÍèä System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-06-14 03:38:14,630 [13] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 03:38:38,145 [13] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 03:38:57,733 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 03:38:57,783 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 03:38:57,794 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 03:38:57,799 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 03:38:57,800 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 03:38:57,804 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 03:38:57,804 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 03:38:57,804 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 03:38:57,814 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 03:38:57,819 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 03:38:58,259 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 03:38:58,273 [11] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.5cd05789-53e0-4e44-9696-98654fa001e2', class=BBSObserver.Scheduler.Job
+2018-06-14 03:38:58,278 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 03:38:58,295 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.5cd05789-53e0-4e44-9696-98654fa001e2
+2018-06-14 03:38:58,298 [12] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 3:38:58
+2018-06-14 03:39:00,726 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 03:39:23,929 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 03:40:31,385 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 03:40:31,434 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 03:40:31,445 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 03:40:31,448 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 03:40:31,449 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 03:40:31,454 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 03:40:31,455 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 03:40:31,455 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 03:40:31,466 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 03:40:31,471 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 03:40:31,916 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 03:40:31,930 [12] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.7cd57ed9-fb2b-4d46-b5c8-94ebf88fb10e', class=BBSObserver.Scheduler.Job
+2018-06-14 03:40:31,936 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 03:40:31,952 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.7cd57ed9-fb2b-4d46-b5c8-94ebf88fb10e
+2018-06-14 03:40:31,956 [13] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 3:40:31
+2018-06-14 03:40:33,698 [14] ERROR BBSObserver.MvcApplication [(null)] -    èÍèä System.Web.Compilation.AssemblyBuilder.Compile()
+   èÍèä System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   èÍèä System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   èÍèä System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   èÍèä System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   èÍèä System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   èÍèä System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   èÍèä System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   èÍèä System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   èÍèä System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   èÍèä System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecute>b__151_2(IAsyncResult asyncResult, Controller controller)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   èÍèä System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   èÍèä System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   èÍèä System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+System.Web.HttpCompileException (0x80004005): C:\Users\dexte\source\repos\BBSObserver\BBSObserver\Areas\Admin\Views\History\CreateHistory.cshtml(19): error CS1003: Syntax error, ',' expected
+   èÍèä System.Web.Compilation.AssemblyBuilder.Compile()
+   èÍèä System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   èÍèä System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   èÍèä System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   èÍèä System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   èÍèä System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   èÍèä System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   èÍèä System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   èÍèä System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   èÍèä System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   èÍèä System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecute>b__151_2(IAsyncResult asyncResult, Controller controller)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   èÍèä System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   èÍèä System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   èÍèä System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-06-14 03:40:34,568 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 03:41:01,465 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 03:41:01,518 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 03:41:01,531 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 03:41:01,533 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 03:41:01,534 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 03:41:01,540 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 03:41:01,540 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 03:41:01,541 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 03:41:01,551 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 03:41:01,555 [8] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 03:41:02,004 [8] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 03:41:02,018 [8] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.a25c3686-2f3c-4ac5-8a96-d00dbb82613a', class=BBSObserver.Scheduler.Job
+2018-06-14 03:41:02,022 [8] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 03:41:02,044 [9] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.a25c3686-2f3c-4ac5-8a96-d00dbb82613a
+2018-06-14 03:41:02,049 [9] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 3:41:02
+2018-06-14 03:41:04,351 [9] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 03:42:22,398 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 03:42:22,444 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 03:42:22,458 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 03:42:22,461 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 03:42:22,462 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 03:42:22,465 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 03:42:22,465 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 03:42:22,468 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 03:42:22,476 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 03:42:22,479 [16] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 03:42:22,896 [16] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 03:42:22,907 [16] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.15c9c08d-76b2-4dc7-8d24-db759cc5c824', class=BBSObserver.Scheduler.Job
+2018-06-14 03:42:22,913 [16] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 03:42:22,930 [17] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.15c9c08d-76b2-4dc7-8d24-db759cc5c824
+2018-06-14 03:42:22,933 [17] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 3:42:22
+2018-06-14 03:42:25,413 [17] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 03:42:49,112 [16] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 03:43:12,488 [16] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:03:47,270 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:03:47,309 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:03:47,319 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:03:47,321 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:03:47,322 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:03:47,325 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:03:47,325 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:03:47,326 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:03:47,332 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:03:47,335 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:03:47,647 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:03:47,655 [12] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.8a6b5162-33fd-4500-ad8f-7a6db5f5d7b2', class=BBSObserver.Scheduler.Job
+2018-06-14 04:03:47,659 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:03:47,672 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.8a6b5162-33fd-4500-ad8f-7a6db5f5d7b2
+2018-06-14 04:03:47,673 [13] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:03:47
+2018-06-14 04:03:49,834 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:05:37,811 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:05:37,857 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:05:37,868 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:05:37,870 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:05:37,871 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:05:37,875 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:05:37,875 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:05:37,875 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:05:37,885 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:05:37,888 [14] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:05:38,308 [14] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:05:38,320 [14] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.3c47b115-476a-446f-88f1-dcc54fcf6b19', class=BBSObserver.Scheduler.Job
+2018-06-14 04:05:38,325 [14] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:05:38,341 [15] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.3c47b115-476a-446f-88f1-dcc54fcf6b19
+2018-06-14 04:05:38,346 [15] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:05:38
+2018-06-14 04:05:40,732 [15] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:06:02,597 [14] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:07:11,145 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:07:11,189 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:07:11,200 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:07:11,203 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:07:11,204 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:07:11,207 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:07:11,207 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:07:11,207 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:07:11,223 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:07:11,230 [13] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:07:11,637 [13] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:07:11,650 [13] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.1625adcd-446a-4797-b1a8-172967f51c07', class=BBSObserver.Scheduler.Job
+2018-06-14 04:07:11,658 [13] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:07:11,677 [14] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.1625adcd-446a-4797-b1a8-172967f51c07
+2018-06-14 04:07:11,678 [14] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:07:11
+2018-06-14 04:07:14,132 [14] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:07:37,036 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:07:37,080 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:07:37,090 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:07:37,093 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:07:37,094 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:07:37,097 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:07:37,097 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:07:37,098 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:07:37,113 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:07:37,116 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:07:37,554 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:07:37,566 [12] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.6d03cca5-a8fc-412b-b999-87a97a0e2110', class=BBSObserver.Scheduler.Job
+2018-06-14 04:07:37,570 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:07:37,588 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.6d03cca5-a8fc-412b-b999-87a97a0e2110
+2018-06-14 04:07:37,591 [13] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:07:37
+2018-06-14 04:07:39,896 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:10:15,140 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:10:15,191 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:10:15,201 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:10:15,204 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:10:15,205 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:10:15,208 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:10:15,209 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:10:15,209 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:10:15,218 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:10:15,220 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:10:15,647 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:10:15,658 [11] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.1857d0af-8d0e-4f9b-8d66-0246aaf5cc83', class=BBSObserver.Scheduler.Job
+2018-06-14 04:10:15,664 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:10:15,685 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.1857d0af-8d0e-4f9b-8d66-0246aaf5cc83
+2018-06-14 04:10:15,686 [12] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:10:15
+2018-06-14 04:10:18,157 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:10:42,018 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:11:23,030 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:11:23,075 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:11:23,086 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:11:23,089 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:11:23,090 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:11:23,093 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:11:23,094 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:11:23,095 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:11:23,104 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:11:23,107 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:11:23,544 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:11:23,555 [11] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.bb080d09-5da8-4edf-919e-cc4fd812250e', class=BBSObserver.Scheduler.Job
+2018-06-14 04:11:23,560 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:11:23,583 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.bb080d09-5da8-4edf-919e-cc4fd812250e
+2018-06-14 04:11:23,584 [12] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:11:23
+2018-06-14 04:11:26,010 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:12:36,822 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:12:36,869 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:12:36,879 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:12:36,883 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:12:36,884 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:12:36,888 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:12:36,889 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:12:36,899 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:12:36,906 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:12:36,909 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:12:37,319 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:12:37,330 [12] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.901ad408-ff15-4261-a539-5ca9ecb674f2', class=BBSObserver.Scheduler.Job
+2018-06-14 04:12:37,335 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:12:37,358 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.901ad408-ff15-4261-a539-5ca9ecb674f2
+2018-06-14 04:12:37,360 [13] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:12:37
+2018-06-14 04:12:39,775 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:13:23,804 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:13:23,859 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:13:23,875 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:13:23,879 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:13:23,880 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:13:23,885 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:13:23,885 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:13:23,886 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:13:23,894 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:13:23,903 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:13:24,379 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:13:24,393 [11] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.ade66a4a-fa5c-4a42-b7ab-8898141f3e24', class=BBSObserver.Scheduler.Job
+2018-06-14 04:13:24,397 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:13:24,416 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.ade66a4a-fa5c-4a42-b7ab-8898141f3e24
+2018-06-14 04:13:24,419 [12] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:13:24
+2018-06-14 04:13:27,224 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:15:13,253 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:15:13,296 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:15:13,308 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:15:13,312 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:15:13,313 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:15:13,317 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:15:13,320 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:15:13,320 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:15:13,328 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:15:13,331 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:15:13,753 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:15:13,764 [12] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.9286338e-35b3-4979-9a99-9d4550abcbaa', class=BBSObserver.Scheduler.Job
+2018-06-14 04:15:13,768 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:15:13,785 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.9286338e-35b3-4979-9a99-9d4550abcbaa
+2018-06-14 04:15:13,786 [13] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:15:13
+2018-06-14 04:15:16,312 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:15:38,269 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:15:47,621 [13] ERROR BBSObserver.MvcApplication [(null)] -    èÍèä System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecute>b__151_2(IAsyncResult asyncResult, Controller controller)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   èÍèä System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   èÍèä System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   èÍèä System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+System.Web.HttpException (0x80004005): !baRrz!A public action method 'Details' was not found on controller 'BBSObserver.Areas.Admin.Controllers.LectureController'. ï\c?éöái ï\!
+   èÍèä System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecute>b__151_2(IAsyncResult asyncResult, Controller controller)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   èÍèä System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   èÍèä System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   èÍèä System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-06-14 04:18:55,032 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:18:55,072 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:18:55,081 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:18:55,085 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:18:55,085 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:18:55,087 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:18:55,088 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:18:55,088 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:18:55,094 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:18:55,097 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:18:55,438 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:18:55,451 [11] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.0a307647-d512-4e59-906e-2a77e289227a', class=BBSObserver.Scheduler.Job
+2018-06-14 04:18:55,454 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:18:55,468 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.0a307647-d512-4e59-906e-2a77e289227a
+2018-06-14 04:18:55,470 [12] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:18:55
+2018-06-14 04:18:57,442 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:19:19,492 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:19:47,146 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:20:09,398 [17] ERROR BBSObserver.MvcApplication [(null)] -    èÍèä System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+   èÍèä System.Web.Mvc.ViewDataDictionary..ctor(ViewDataDictionary dictionary)
+   èÍèä System.Web.Mvc.WebViewPage`1.SetViewData(ViewDataDictionary viewData)
+   èÍèä System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   èÍèä System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   èÍèä System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecute>b__151_2(IAsyncResult asyncResult, Controller controller)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   èÍèä System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   èÍèä System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   èÍèä System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+System.InvalidOperationException: !60oPp!The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[BBSObserver.Models.Core.BBSCoreInfo]', but this dictionary requires a model item of type 'BBSObserver.Models.Core.BBSCoreInfo'. ï\c?éöái ï\c?éöái ï\!
+   èÍèä System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+   èÍèä System.Web.Mvc.ViewDataDictionary..ctor(ViewDataDictionary dictionary)
+   èÍèä System.Web.Mvc.WebViewPage`1.SetViewData(ViewDataDictionary viewData)
+   èÍèä System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   èÍèä System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   èÍèä System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   èÍèä System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecute>b__151_2(IAsyncResult asyncResult, Controller controller)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   èÍèä System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   èÍèä System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   èÍèä System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-06-14 04:20:12,449 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:21:17,655 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:21:17,698 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:21:17,708 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:21:17,711 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:21:17,712 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:21:17,716 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:21:17,716 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:21:17,719 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:21:17,726 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:21:17,729 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:21:18,133 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:21:18,145 [11] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.8208d2c0-52b9-41b9-9fcb-658789b2b45c', class=BBSObserver.Scheduler.Job
+2018-06-14 04:21:18,152 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:21:18,167 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.8208d2c0-52b9-41b9-9fcb-658789b2b45c
+2018-06-14 04:21:18,171 [12] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:21:18
+2018-06-14 04:21:20,628 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:22:20,747 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:22:20,792 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:22:20,803 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:22:20,805 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:22:20,806 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:22:20,810 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:22:20,810 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:22:20,810 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:22:20,820 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:22:20,823 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:22:21,236 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:22:21,247 [12] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.8966f4b9-6931-4dd4-ac63-98a779c69ecc', class=BBSObserver.Scheduler.Job
+2018-06-14 04:22:21,253 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:22:21,271 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.8966f4b9-6931-4dd4-ac63-98a779c69ecc
+2018-06-14 04:22:21,274 [13] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:22:21
+2018-06-14 04:22:23,889 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:25:07,777 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:25:07,816 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:25:07,826 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:25:07,829 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:25:07,830 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:25:07,832 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:25:07,832 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:25:07,833 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:25:07,839 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:25:07,841 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:25:08,141 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:25:08,149 [12] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.fd8a37d1-d3aa-4c8a-a398-85e052d8c0e8', class=BBSObserver.Scheduler.Job
+2018-06-14 04:25:08,153 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:25:08,168 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.fd8a37d1-d3aa-4c8a-a398-85e052d8c0e8
+2018-06-14 04:25:08,169 [13] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:25:08
+2018-06-14 04:25:10,188 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:25:35,232 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:27:30,161 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:27:30,203 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:27:30,215 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:27:30,219 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:27:30,220 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:27:30,223 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:27:30,223 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:27:30,223 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:27:30,230 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:27:30,233 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:27:30,539 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:27:30,548 [11] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.e2734b8c-327e-4de1-b28a-9ed743a01440', class=BBSObserver.Scheduler.Job
+2018-06-14 04:27:30,552 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:27:30,565 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.e2734b8c-327e-4de1-b28a-9ed743a01440
+2018-06-14 04:27:30,566 [12] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:27:30
+2018-06-14 04:27:32,642 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:28:31,933 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:28:31,977 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:28:31,988 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:28:31,993 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:28:31,994 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:28:31,999 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:28:31,999 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:28:32,000 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:28:32,011 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:28:32,017 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:28:32,418 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:28:32,431 [11] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.3e2ee32d-5ebb-420f-81ae-113f46776040', class=BBSObserver.Scheduler.Job
+2018-06-14 04:28:32,441 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:28:32,455 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.3e2ee32d-5ebb-420f-81ae-113f46776040
+2018-06-14 04:28:32,459 [12] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:28:32
+2018-06-14 04:28:34,603 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:29:20,583 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:29:20,626 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:29:20,636 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:29:20,639 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:29:20,640 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:29:20,644 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:29:20,645 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:29:20,650 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:29:20,658 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:29:20,663 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:29:21,126 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:29:21,138 [11] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.10606cdf-296e-4ed0-b59f-030236022fd1', class=BBSObserver.Scheduler.Job
+2018-06-14 04:29:21,143 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:29:21,160 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.10606cdf-296e-4ed0-b59f-030236022fd1
+2018-06-14 04:29:21,161 [13] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:29:21
+2018-06-14 04:29:23,376 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:29:44,859 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:47:15,073 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:47:15,111 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:47:15,121 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:47:15,123 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:47:15,124 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:47:15,126 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:47:15,126 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:47:15,127 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:47:15,134 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:47:15,137 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:47:15,488 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:47:15,496 [11] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.4dbedc73-aa74-4101-a3e6-d94f28775ba8', class=BBSObserver.Scheduler.Job
+2018-06-14 04:47:15,500 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:47:15,512 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.4dbedc73-aa74-4101-a3e6-d94f28775ba8
+2018-06-14 04:47:15,514 [12] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:47:15
+2018-06-14 04:47:17,662 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:47:43,790 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:48:30,725 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:48:30,763 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:48:30,772 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:48:30,775 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:48:30,775 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:48:30,778 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:48:30,778 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:48:30,778 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:48:30,784 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:48:30,787 [13] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:48:31,089 [13] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:48:31,097 [13] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.976ac349-4646-4811-b8da-8ccb3f640e44', class=BBSObserver.Scheduler.Job
+2018-06-14 04:48:31,101 [13] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:48:31,113 [14] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.976ac349-4646-4811-b8da-8ccb3f640e44
+2018-06-14 04:48:31,115 [14] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:48:31
+2018-06-14 04:48:33,508 [14] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:48:54,575 [13] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:49:18,727 [13] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:49:23,137 [11] ERROR BBSObserver.MvcApplication [(null)] -    èÍèä System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecute>b__151_2(IAsyncResult asyncResult, Controller controller)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   èÍèä System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   èÍèä System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   èÍèä System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+System.Web.HttpException (0x80004005): !baRrz!A public action method 'EditCoreInfo' was not found on controller 'BBSObserver.Areas.Admin.Controllers.AdminController'. ï\c?éöái ï\!
+   èÍèä System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecute>b__151_2(IAsyncResult asyncResult, Controller controller)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   èÍèä System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   èÍèä System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   èÍèä System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-06-14 04:49:35,378 [15] ERROR BBSObserver.MvcApplication [(null)] -    èÍèä System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecute>b__151_2(IAsyncResult asyncResult, Controller controller)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   èÍèä System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   èÍèä System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   èÍèä System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+System.Web.HttpException (0x80004005): !baRrz!A public action method 'EditCoreInfo' was not found on controller 'BBSObserver.Areas.Admin.Controllers.AdminController'. ï\c?éöái ï\!
+   èÍèä System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.<>c.<BeginExecute>b__151_2(IAsyncResult asyncResult, Controller controller)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   èÍèä System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   èÍèä System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   èÍèä System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   èÍèä System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   èÍèä System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-06-14 04:51:32,400 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:51:32,445 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:51:32,458 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:51:32,461 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:51:32,462 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:51:32,469 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:51:32,470 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:51:32,470 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:51:32,478 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:51:32,480 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:51:32,931 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:51:32,945 [11] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.f09cd39b-4d83-4b05-be82-b5c54b515bb0', class=BBSObserver.Scheduler.Job
+2018-06-14 04:51:32,951 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:51:32,976 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.f09cd39b-4d83-4b05-be82-b5c54b515bb0
+2018-06-14 04:51:41,726 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:51:41,771 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:51:41,783 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:51:41,787 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:51:41,789 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:51:41,793 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:51:41,794 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:51:41,794 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:51:41,804 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:51:41,808 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:51:42,226 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:51:42,238 [11] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.c2cdeff9-6a27-4d7e-ba2a-281feb4fb530', class=BBSObserver.Scheduler.Job
+2018-06-14 04:51:42,243 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:51:42,259 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.c2cdeff9-6a27-4d7e-ba2a-281feb4fb530
+2018-06-14 04:51:42,263 [12] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:51:42
+2018-06-14 04:51:44,743 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:53:26,359 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:53:26,402 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:53:26,412 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:53:26,415 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:53:26,416 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:53:26,419 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:53:26,419 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:53:26,420 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:53:26,430 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:53:26,432 [13] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:53:26,850 [13] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:53:26,862 [13] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.196a8408-5ec4-456c-8208-eb81a2035eb4', class=BBSObserver.Scheduler.Job
+2018-06-14 04:53:26,868 [13] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:53:26,884 [14] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.196a8408-5ec4-456c-8208-eb81a2035eb4
+2018-06-14 04:53:26,909 [14] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:53:26
+2018-06-14 04:53:29,514 [14] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:54:11,878 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:54:11,921 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:54:11,930 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:54:11,933 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:54:11,934 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:54:11,937 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:54:11,938 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:54:11,938 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:54:11,948 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:54:11,952 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:54:12,370 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:54:12,389 [11] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.5cd4553a-424b-4d35-a345-ec44e8e300d7', class=BBSObserver.Scheduler.Job
+2018-06-14 04:54:12,395 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:54:12,409 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.5cd4553a-424b-4d35-a345-ec44e8e300d7
+2018-06-14 04:54:12,413 [12] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:54:12
+2018-06-14 04:54:14,874 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:54:53,205 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:54:53,249 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:54:53,259 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:54:53,262 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:54:53,262 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:54:53,266 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:54:53,266 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:54:53,266 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:54:53,276 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:54:53,278 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:54:53,687 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:54:53,700 [12] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.d6968c9b-14fe-4d56-9d33-10bd4f728b78', class=BBSObserver.Scheduler.Job
+2018-06-14 04:54:53,705 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:54:53,724 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.d6968c9b-14fe-4d56-9d33-10bd4f728b78
+2018-06-14 04:54:53,729 [13] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:54:53
+2018-06-14 04:54:56,194 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:55:19,315 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:56:20,934 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:56:20,986 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:56:20,997 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:56:21,000 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:56:21,001 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:56:21,005 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:56:21,005 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:56:21,006 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:56:21,017 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:56:21,020 [9] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:56:21,440 [9] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:56:21,452 [9] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.a3b5e5bb-d740-4618-a0d3-a033d2cc9c09', class=BBSObserver.Scheduler.Job
+2018-06-14 04:56:21,457 [9] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:56:21,473 [10] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.a3b5e5bb-d740-4618-a0d3-a033d2cc9c09
+2018-06-14 04:56:21,475 [10] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:56:21
+2018-06-14 04:56:23,927 [10] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:56:39,503 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:56:39,548 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:56:39,558 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:56:39,561 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:56:39,562 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:56:39,566 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:56:39,566 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:56:39,567 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:56:39,577 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:56:39,579 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:56:40,010 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:56:40,021 [11] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.4c0dab01-126c-49d9-854b-e09fd7b60c61', class=BBSObserver.Scheduler.Job
+2018-06-14 04:56:40,025 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:56:40,042 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.4c0dab01-126c-49d9-854b-e09fd7b60c61
+2018-06-14 04:56:40,043 [12] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:56:40
+2018-06-14 04:56:42,996 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 04:57:03,699 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:59:56,816 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 04:59:56,866 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 04:59:56,877 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 04:59:56,881 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 04:59:56,882 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 04:59:56,884 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 04:59:56,885 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 04:59:56,887 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 04:59:56,896 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 04:59:56,900 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:59:57,375 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 04:59:57,390 [12] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.b64be853-5a1f-4cd7-b19c-4baefae09846', class=BBSObserver.Scheduler.Job
+2018-06-14 04:59:57,396 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 04:59:57,418 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.b64be853-5a1f-4cd7-b19c-4baefae09846
+2018-06-14 04:59:57,420 [13] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 4:59:57
+2018-06-14 04:59:59,924 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 05:01:03,339 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 05:01:03,387 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 05:01:03,398 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 05:01:03,403 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 05:01:03,404 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 05:01:03,407 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 05:01:03,408 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 05:01:03,408 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 05:01:03,421 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 05:01:03,425 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 05:01:03,888 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 05:01:03,900 [12] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.6ee737bd-db82-4998-afba-458d5751aefd', class=BBSObserver.Scheduler.Job
+2018-06-14 05:01:03,906 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 05:01:03,928 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.6ee737bd-db82-4998-afba-458d5751aefd
+2018-06-14 05:01:03,930 [13] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 5:01:03
+2018-06-14 05:01:06,547 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 05:06:43,550 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 05:06:43,595 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 05:06:43,607 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 05:06:43,610 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 05:06:43,610 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 05:06:43,612 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 05:06:43,613 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 05:06:43,613 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 05:06:43,621 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 05:06:43,624 [8] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 05:06:43,940 [8] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 05:06:43,949 [8] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.7a4a45f2-2b57-4ba6-a2bc-e093aa171be0', class=BBSObserver.Scheduler.Job
+2018-06-14 05:06:43,953 [8] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 05:06:43,967 [9] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.7a4a45f2-2b57-4ba6-a2bc-e093aa171be0
+2018-06-14 05:06:43,968 [9] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 5:06:43
+2018-06-14 05:06:46,277 [9] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 05:06:59,775 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 05:06:59,820 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 05:06:59,833 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 05:06:59,836 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 05:06:59,836 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 05:06:59,839 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 05:06:59,839 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 05:06:59,839 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 05:06:59,848 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 05:06:59,853 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 05:07:00,298 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 05:07:00,310 [11] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.6f5df0a7-9208-4be4-9761-ce3c4a5a31d7', class=BBSObserver.Scheduler.Job
+2018-06-14 05:07:00,316 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 05:07:00,333 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.6f5df0a7-9208-4be4-9761-ce3c4a5a31d7
+2018-06-14 05:07:00,335 [12] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 5:07:00
+2018-06-14 05:07:02,718 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 05:07:44,660 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 05:07:44,711 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 05:07:44,721 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 05:07:44,725 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 05:07:44,727 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 05:07:44,733 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 05:07:44,733 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 05:07:44,733 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 05:07:44,741 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 05:07:44,745 [13] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 05:07:45,194 [13] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 05:07:45,207 [13] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.55c1560a-2373-404e-8faf-11bd44fc1529', class=BBSObserver.Scheduler.Job
+2018-06-14 05:07:45,215 [13] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 05:07:45,232 [14] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.55c1560a-2373-404e-8faf-11bd44fc1529
+2018-06-14 05:07:45,235 [14] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 5:07:45
+2018-06-14 05:07:47,839 [14] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 05:08:59,314 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-14 05:08:59,368 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-14 05:08:59,380 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-14 05:08:59,384 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-14 05:08:59,385 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-14 05:08:59,388 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-14 05:08:59,388 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-14 05:08:59,389 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-14 05:08:59,402 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-14 05:08:59,405 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 05:08:59,866 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-14 05:08:59,877 [11] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.22a63647-5ccb-4ac1-a15d-4c67b7059b83', class=BBSObserver.Scheduler.Job
+2018-06-14 05:08:59,882 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-14 05:08:59,903 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.22a63647-5ccb-4ac1-a15d-4c67b7059b83
+2018-06-14 05:08:59,904 [12] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/14 5:08:59
+2018-06-14 05:09:02,317 [12] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction
+2018-06-14 05:09:26,151 [11] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers

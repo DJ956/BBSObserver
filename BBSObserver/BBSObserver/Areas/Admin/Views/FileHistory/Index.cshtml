@@ -1,0 +1,45 @@
+﻿@model IEnumerable<BBSObserver.Models.History.FileHistory>
+
+@{
+    ViewBag.Title = "ファイル送信履歴";
+}
+
+<h2>ファイル送信履歴リスト</h2>
+
+<p>
+    @Html.ActionLink("新規作成", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FileName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LectureId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FileData)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FileName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LectureId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FileData)
+        </td>
+        <td>
+            @Html.ActionLink("編集", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("詳細", "Details", new { id=item.Id }) |
+            @Html.ActionLink("削除", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,32 @@
+﻿@model  BBSObserver.Models.DeleteAccountViewModel
+
+@{
+    ViewBag.Title = "アカウントの削除";
+}
+
+@using(Html.BeginForm("DeleteAccount", "Manage", FormMethod.Post, new { @class="form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <h4>アカウントを削除します</h4>
+    <hr />
+
+    <p>アカウント: @Model.UserName を削除してもよろしいですか?</p>
+    <p>メールアドレス: @Model.Email</p>
+
+    @Html.ValidationSummary("", new { @class="text-danger"})
+    <div class="form-group">
+        <div class="col-md-12">
+            @Html.LabelFor(m => m.ConfirmDelete, new { @class = "col-md-12 control-label" })
+            @Html.CheckBoxFor(m => m.ConfirmDelete, new { @class = "form-control" })
+        </div>
+
+        <br />
+
+        <div class="form-group">
+            <div class="col-md-2">
+                <input type="submit" class="btn btn-danger" value="削除する" />
+            </div>
+        </div>
+    </div>
+}
+

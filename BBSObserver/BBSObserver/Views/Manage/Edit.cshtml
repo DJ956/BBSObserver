@@ -1,0 +1,32 @@
+﻿@model  IEnumerable<BBSObserver.Models.Lecture.Lecture>
+@using BBSObserver.Models.Lecture;
+
+@{
+    ViewBag.Title = "受信する講義を変更";
+}
+
+<h2>受信する講義を変更</h2>
+<p>受信したい講義にチェックを付けてください</p>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <h4>編集</h4>
+
+    @Html.Partial("LectureList" , Model, new ViewDataDictionary() { {"IsEdit", true } })
+
+    <input type="submit" value="選択を保存" class="btn btn-primary" />
+</div>
+}
+
+<br>
+
+<div>
+    @Html.ActionLink("管理画面に戻る", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,52 @@
+﻿@model IEnumerable<BBSObserver.Models.History.History>
+
+@{
+    ViewBag.Title = "履歴リスト";
+}
+
+<h2>履歴リスト</h2>
+
+<p>
+    @Html.ActionLink("新規作成", "CreateHistory")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.RegistryDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LectureId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Context)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserName)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.RegistryDate)
+            </td>
+            <td>
+                @Html.ActionLink(item.LectureId.ToString(), "Details", "Lecture", new { area="Admin", id=item.LectureId}, null)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Context)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.ActionLink("編集", "EditHistory", new { id = item.Id }) |
+                @Html.ActionLink("詳細", "DetailsHistory", new { id = item.Id }) |
+                @Html.ActionLink("削除", "DeleteHistory", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>

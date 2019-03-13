@@ -1,0 +1,40 @@
+﻿@model BBSObserver.Models.IndexViewModel
+
+@{
+    ViewBag.Title = "管理ページ";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div>
+    <h5>ようこそ：@Model.UserName さん</h5>
+    <h5>メールアドレス: @Model.Email</h5>
+</div>
+
+<hr />
+
+<h3>受信設定をしている講義リスト</h3>
+<br>
+@Html.ActionLink("受信する講義を編集", "Edit", routeValues: null, htmlAttributes:  new {@class="btn btn-primary" })
+@Html.Partial("LectureList", Model.LectureList.ToList(), new ViewDataDictionary() { { "IsEdit", false } })
+
+<hr />
+
+<div>
+    <dl class="dl-horizontal">
+        <dd>
+            @if (Model.HasPassword)
+            {
+                @Html.ActionLink("パスワードの変更", "ChangePassword", routeValues: null, htmlAttributes: new {@class="btn btn-info" })
+            }
+            else
+            {
+                @Html.ActionLink("作成", "SetPassword")
+            }
+        </dd>
+        <dd>
+            @Html.ActionLink("アカウントを削除する", "DeleteAccount", routeValues: null, htmlAttributes: new {@class="btn btn-danger"})
+        </dd>
+    </dl>
+</div>

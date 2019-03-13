@@ -1,0 +1,64 @@
+﻿@model BBSObserver.Models.Lecture.Lecture
+
+@{
+    ViewBag.Title = "削除";
+}
+
+<h2>講義削除</h2>
+
+<h3>本当にこの講義を削除してもよろしいですか?</h3>
+<div>
+    <h4>削除する講義</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Target)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Target)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProfessorName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProfessorName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Room)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Room)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Check)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Check)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-danger" /> |
+            @Html.ActionLink("戻る", "Index")
+        </div>
+    }
+</div>

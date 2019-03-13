@@ -1,0 +1,75 @@
+﻿@model  IEnumerable<BBSObserver.Models.Lecture.Lecture>
+@using BBSObserver.Models.Lecture
+
+
+@{
+    Grand targetGrand = (Grand)ViewData["Target"];
+    bool isEdit = (bool)ViewData["IsEdit"];
+    var target = from t in Model
+                 where t.Target == targetGrand
+                 select t;
+}
+
+<table class="table">
+    <tr>
+        <!--もし編集のための呼び出しならばチェックボックスを呼び出す-->
+        @if (isEdit)
+        {
+            <th>
+                @Html.DisplayNameFor(model => model.Check)
+            </th>
+        }
+
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProfessorName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Target)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Room)
+        </th>
+    </tr>
+
+    @foreach (var item in target)
+    {
+        <tr>
+                <!--もし編集のための呼び出しならチェックボックスを表示-->
+                @if (isEdit)
+                {
+                    <td>
+                    @if (item.Check)
+                    {
+                        <label><input type="checkbox" name="lectureList" value="@item.LectureId" checked="checked">選択済み</label>
+                    }
+                    else
+                    {
+                        <label><input type="checkbox" name="lectureList" value=@item.LectureId />選択</label>
+                    }
+                    </td>
+                }
+
+            <td>
+                @Html.DisplayFor(model => item.Name)
+            </td>
+
+            <td>
+                @Html.DisplayFor(model => item.ProfessorName)
+            </td>
+
+            <td>
+                @Html.DisplayFor(model => item.Target)
+            </td>
+
+            <td>
+                @Html.DisplayFor(model => item.Room)
+            </td>
+
+        </tr>
+    }
+
+</table>
+

@@ -1,0 +1,74 @@
+﻿@using Microsoft.AspNet.Identity;
+@using Microsoft.AspNet.Identity.Owin;
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark nav-fill  fixed-top">
+            @Html.ActionLink("情報工学科Web掲示板自動通知サービス", "Index", "Home", routeValues: null, htmlAttributes: new { @class = "navbar-brand" })
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar"
+                    aria-expanded="false" aria-label="ナビゲーションの切り替え">
+                <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        @Html.ActionLink("ホーム", "Index", "Home", routeValues: null, htmlAttributes: new { @class = "nav-link" })
+                    </li>
+
+                    <li class="nav-item">
+                        @Html.ActionLink("サービス内容", "Details", "Home", routeValues: null, htmlAttributes: new { @class = "nav-link" })
+                    </li>
+
+                    <li class="nav-item">
+                        @Html.ActionLink("使い方", "About", "Home", routeValues: null, htmlAttributes: new { @class = "nav-link" })
+                    </li>
+
+                    <li class="nav-item">
+                        @Html.ActionLink("問い合わせ", "Contact", "Home", routeValues: null, htmlAttributes: new { @class = "nav-link" })
+                    </li>
+
+                    <li calss="nav-item">
+                        @Html.ActionLink("アカウント", "Index", "Manage", routeValues: null, htmlAttributes: new { @class = "nav-link" })
+                    </li>
+
+                    @{ 
+                        var userManager = HttpContext.Current.GetOwinContext().GetUserManager<ApplicationUserManager>();
+                        var userId = User.Identity.GetUserId();
+                        if(userId != null && userManager.IsInRole(userId, "Admin"))
+                        {
+                            <li class="nav-item">
+                                @Html.ActionLink("管理", "Index", "Admin", new { area="Admin"}, htmlAttributes: new {@class="nav-link" })
+                            </li>
+                        }
+                    }
+
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </nav>
+    </header>
+
+    <div class="container body-content">
+        <br>
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - 情報工学科Web掲示板自動通知サービス - 1.2.0</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

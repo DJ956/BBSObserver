@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "管理者ページ";
+}
+
+<h2>管理者用ページ</h2>
+@Html.ActionLink("Job実行", "ExecuteJob", null, htmlAttributes: new { @class="btn btn-primary"})
+<hr />
+
+<h3>BBSObserverの詳細設定のコントロールページ</h3>
+@Html.ActionLink("BBSCoreInfoページに飛ぶ", "Index", "BBSCoreInfo", new { area="Admin"}, htmlAttributes: new {@class="btn btn-outline-primary" })
+
+<hr />
+
+<h3>ユーザーのコントロールパネル</h3>
+@Html.ActionLink("Userページに飛ぶ", "Index", "User", new { area="Admin"},htmlAttributes: new { @class="btn btn-outline-primary"})
+
+<hr />
+
+<h3>履歴のコントロールページ</h3>
+@Html.ActionLink("Historyページに飛ぶ", "Index", "History", new { area="Admin"}, htmlAttributes: new { @class = "btn btn-outline-primary" })
+
+<hr />
+
+<h3>講義のコントロールページ</h3>
+@Html.ActionLink("Lectureページに飛ぶ", "Index", "Lecture", new { area = "Admin"}, htmlAttributes: new { @class = "btn btn-outline-primary" })
+
+<hr />
+
+<h3>受講者のコントロールパネル</h3>
+@Html.ActionLink("Participantページに飛ぶ", "Index", "Participant", new {area="Admin" }, htmlAttributes: new { @class = "btn btn-outline-primary" })
+
+<hr/>
+
+<h3>ファイル送信履歴のコントロールパネル</h3>
+@Html.ActionLink("FileHistoryページに飛ぶ", "Index", "FileHistory", new { area="Admin"}, htmlAttributes: new {@class="btn btn-outline-primary" })
+
+<hr />
+
+<a href="/" class="btn btn-outline-primary">ホームに戻る</a>

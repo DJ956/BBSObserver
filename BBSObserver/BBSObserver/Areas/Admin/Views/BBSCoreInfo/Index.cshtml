@@ -1,0 +1,87 @@
+﻿@model BBSObserver.Models.Core.BBSCoreInfo
+
+@{
+    ViewBag.Title = "BBSCoreInfo編集";
+}
+
+<h2>BBSCoreInfo編集</h2>
+
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.RegistryDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RegistryDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.URL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.URL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UrlPdf)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UrlPdf)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Password)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HostName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HostName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Port)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Port)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AddressPassword)
+        </dt>
+
+        <dd>
+            @*Html.DisplayFor(model => model.AddressPassword)*@
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Interval)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Interval)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("編集", "EditCoreInfo", new { id = Model.Id })
+</p>

@@ -1,0 +1,24 @@
+2018-06-16 16:04:47,835 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Default Quartz.NET properties loaded from embedded resource file
+2018-06-16 16:04:47,878 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool [(null)] - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-06-16 16:04:47,889 [1] INFO  Quartz.Core.SchedulerSignalerImpl [(null)] - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-06-16 16:04:47,892 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Quartz Scheduler v.3.0.5.0 created.
+2018-06-16 16:04:47,892 [1] INFO  Quartz.Simpl.RAMJobStore [(null)] - RAMJobStore initialized.
+2018-06-16 16:04:47,895 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-16 16:04:47,896 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-06-16 16:04:47,896 [1] INFO  Quartz.Impl.StdSchedulerFactory [(null)] - Quartz scheduler version: 3.0.5.0
+2018-06-16 16:04:47,903 [1] INFO  Quartz.Core.QuartzScheduler [(null)] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-06-16 16:04:47,906 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-16 16:04:48,940 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 1 triggers
+2018-06-16 16:04:48,949 [12] DEBUG Quartz.Simpl.SimpleJobFactory [(null)] - Producing instance of Job 'DEFAULT.0b4f45ad-fe6a-4407-a5df-02e537292169', class=BBSObserver.Scheduler.Job
+2018-06-16 16:04:48,954 [12] DEBUG Quartz.Core.QuartzSchedulerThread [(null)] - Batch acquisition of 0 triggers
+2018-06-16 16:04:48,967 [13] DEBUG Quartz.Core.JobRunShell [(null)] - Calling Execute on job DEFAULT.0b4f45ad-fe6a-4407-a5df-02e537292169
+2018-06-16 16:04:48,969 [13] INFO  BBSObserver.Scheduler.Job [(null)] - Job start - 2018/06/16 16:04:48
+2018-06-16 16:04:50,503 [6] INFO  BBSObserver.Scheduler.Job [(null)] - Job end - 2018/06/16 16:04:50
+2018-06-16 16:04:50,507 [6] DEBUG Quartz.Core.JobRunShell [(null)] - Trigger instruction : NoInstruction

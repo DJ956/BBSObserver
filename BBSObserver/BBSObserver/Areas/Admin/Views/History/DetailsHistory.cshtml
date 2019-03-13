@@ -1,0 +1,48 @@
+﻿@model BBSObserver.Models.History.History
+
+@{
+    ViewBag.Title = "履歴詳細";
+}
+
+<h2>履歴詳細</h2>
+
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.RegistryDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RegistryDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LectureId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LectureId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Context)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Context)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("編集", "EditHistory", new { id = Model.Id }) |
+    @Html.ActionLink("戻る", "Index")
+</p>

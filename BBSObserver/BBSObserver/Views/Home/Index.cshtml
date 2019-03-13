@@ -1,0 +1,64 @@
+﻿@model DateTime
+
+@{
+    ViewBag.Title = "情報工学科Web掲示板自動通知サービス";
+}
+
+<p class="text-success">@TempData["StatusMessage"]</p>
+
+<div class="jumbotron">
+    <h1>情報工学科Web掲示板自動通知サービス</h1>
+    <p class="lead">
+        このサービスに登録すれば自動で情報工学科Ｗｅｂ掲示板にある
+        自分が見たい情報だけをメールで受け取ることができるようになります。
+        １日毎に掲示板を自動でチェックしますので大切な情報を逃すことはありません。
+        もちろん１度受け取った内容は次からは送られては来ないようになっています。
+    </p>
+    <p><a class="btn btn-primary btn-lg" href="/Account/Register">サービスに登録する &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>サービス内容</h2>
+        <p>
+            自動通知サービスがどうやって動いているのかの紹介しましょう。
+        </p>
+        <p><a class="btn btn-outline-info" href="/Home/Details">詳細を見る &raquo;</a></p>
+    </div>
+
+    <div class="col-md-4">
+        <h2>サービスの使い方</h2>
+        <p>
+            サービスへの登録方法から通知設定までの手順を紹介します。
+        </p>
+        <p><a class="btn btn-outline-info" href="/Home/About">使い方を調べる &raquo;</a></p>
+    </div>
+
+    <div class="col-md-4">
+        <h2>ユーザー登録</h2>
+        <p>ユーザー登録に進みます。入力自体にかかる時間はわずかです。入力する内容はユーザー名、メールアドレスと通知を受け取りたい講義の選択のみです。</p>
+        <p><a class="btn btn-primary" href="/Account/Register">ユーザー登録 &raquo;</a></p>
+    </div>
+
+    <div class="col-md-4">
+        <h2>情報工学科Web掲示板</h2>
+        <p>
+            いったい何年に作られたのか知りませんが、もそすごく簡素な作りだったのでこいうサービスを構築する上では利用しやすく助かりました。
+        </p>
+        <p><a class="btn btn-outline-info" href="http://bb.cs.ehime-u.ac.jp/index.php">情報工学科Web掲示板にジャンプする &raquo;</a></p>
+    </div>
+
+</div>
+
+<span class="badge badge-warning">Warning</span>
+<div class="alert-warning" role="alert">
+    <p>
+        このサービスはまだ試作段階で十分ではない点があります。情報漏えいのリスクを承知した上で使用してください。<br>
+        特にユーザー登録の際にはパスワード欄には普段使っているパスワードを使用するのは避けるようにしてください。
+    </p>
+    <p>もしパスワードを変更したい場合は<a href="/Manage/ChangePassword">パスワード変更</a>をクリックしてパスワードを変更してください。</p>
+</div>
+
+<div class="alert-info" role="alert">
+    <p>次の更新:@Model.ToString()</p>
+</div>
